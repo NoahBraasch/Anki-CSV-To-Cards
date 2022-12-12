@@ -2,6 +2,8 @@
 
 This is a program I wrote to convert a list of the 12k most frequent words found on Japanese netflix, into Anki cards that I can study. Im not very experienced with python so this has been an interesting challenge.
 
+This script uses an API for Jisho.com which allows for appending a search term at the end of an HTML string and it returns a JSON file with the dictionary info on the given word. This script then parses that JSON file into usable text which can be pased into cards.
+
 ## Running from VS Code
 ![](https://github.com/NoahBraasch/Anki-CSV-To-Cards/blob/main/img/ezgif.com-gif-maker(2).gif)
 
